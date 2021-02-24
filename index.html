@@ -14,59 +14,61 @@
 </head>
 
 <body>
-  <div class="grid-template">
-    <nav class="nav">
-      <img src="./images/logo/Reservia@3x.png" alt="logo reservia">
+  <nav class="nav">
+    <div class="nav-top-bar">
+      <a href=""><img src="./images/logo/Reservia@3x.png" alt="logo reservia"></a>
+      <a href="#" class="register">S'inscrire</a>
+    </div>
+    <ul>
+      <li class="active"><a href="#">Hébergements</a></li>
+      <li class="not-active"><a href="#">Activités</a></li>
+    </ul>
+  </nav>
 
-      <ul>
-        <li><a href="#">Hébergements</a></li>
-        <li><a href="#">Activités</a></li>
-        <li><a href="#" class="register">S'inscrire</a></li>
-      </ul>
-    </nav>
+  <section class="search-section">
+    <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+    <p>En plein centre ville ou en pleine nature</p>
+    <div class="search-bar">
+      <div class="icon-left"><i class="fas fa-map-marker-alt"></i></div>
+      <form action="#">
+        <input type="text" placeholder="Marseille, France">
+      </form>
+      <div class="button-right"><a href="#"><i class="fas fa-search"></i></a></div>
+    </div>
+    <h2>Filtres</h2>
+    <div class="filter-container">
 
-    <section>
-      <div class="search-section">
-        <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-        <p>En plein centre ville ou en pleine nature</p>
-        <div class="button-search">
-          <div class="icone-left-search"><i class="fas fa-map-marker-alt"></i></div>
-          <form action="#">
-            <input type="text" placeholder="Marseille, France">
-          </form>
-          <a href="#" class="button-right-search">Rechercher</a>
-        </div>
-        <div class="filter-search-section">
-          <h2>Filtres</h2>
-          <div class="button">
-            <div class="button-icone"></div>
-            <input type="checkbox">
-            <label for="filter-button">Economique</label>
-          </div>
-
-          <div class="button">
-            <div class="button-icone"></div>
-            <input id="filter-button" type="checkbox">
-            <label for="filter-button">Familiale</label>
-          </div>
-
-          <div class="button">
-            <div class="button-icone"></div>
-            <input id="filter-button" type="checkbox">
-            <label for="filter-button">Romantique</label>
-          </div>
-
-          <div class="button">
-            <div class="button-icone"></div>
-            <input id="filter-button" type="checkbox">
-            <label for="filter-button">Animaux autorisés</label>
-          </div>
-
+      <div class="filter-button">
+        <div class="icon-filter">
+          <input type="checkbox">
+          <p>Economique</p>
         </div>
       </div>
-    </section>
 
-  </div>
+      <div class="filter-button">
+        <div class="icon-filter">
+          <input type="checkbox">
+          <p>Familial</p>
+        </div>
+      </div>
+
+      <div class="filter-button">
+        <div class="icon-filter">
+          <input type="checkbox">
+          <p>Romantique</p>
+        </div>
+      </div>
+
+      <div class="filter-button">
+        <div class="icon-filter">
+          <input type="checkbox">
+          <p>Animaux autorisés</p>
+        </div>
+      </div>
+    </div>
+    <p><i class="fas fa-info"></i>Plus de 500 logements sont disponibles dans cette ville</p>
+  </section>
+
 </body>
 
 </html>
