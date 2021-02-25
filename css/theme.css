@@ -24,17 +24,6 @@ ul {
   list-style: none;
 }
 
-h1,
-h2,
-h3,
-h4 {
-  padding: 1.2rem 0 1.2rem 0;
-}
-
-p {
-  padding-bottom: 2.8rem;
-}
-
 /* NAVIGATION TOP */
 .nav {
   display: flex;
@@ -123,9 +112,11 @@ p {
 }
 
 .button-right a {
+  height: 5rem;
   border-radius: 1.6rem;
   background: #0065fc;
   position: relative;
+  bottom: 0.1rem;
   right: 1.6rem;
 }
 
@@ -154,12 +145,12 @@ form input {
   flex-wrap: wrap;
 }
 
-.button-left {
+.filter-button {
   display: flex;
   margin: 0.8rem 0;
 }
 
-.button-left p {
+.filter-button p {
   padding: 1rem;
   padding-left: 2.4rem;
   display: flex;
@@ -172,12 +163,12 @@ form input {
   font-weight: 700;
 }
 
-.button-left p:hover {
+.filter-button p:hover {
   background: #0065fc;
   color: white;
 }
 
-.button-left i {
+.filter-button i {
   background: #deebff;
   color: #0065fc;
   width: 4.9rem;
@@ -214,4 +205,103 @@ form input {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* POPULAR CONTENT */
+
+aside {
+  background: #f2f2f2;
+  padding: 3rem;
+}
+
+aside > h2 {
+  margin: 1.5rem 0;
+  padding-bottom: 2rem;
+}
+
+.popular-container {
+  display: flex;
+  flex-direction: column;
+  margin: 1.4rem 0;
+}
+
+.popular-content {
+  display: flex;
+  flex-direction: row;
+  background: white;
+  border-style: solid;
+  border-width: 0.6rem;
+  border-color: white;
+}
+
+.popular-content img {
+  width: 11rem;
+  height: 13rem;
+}
+
+.pop-content-text {
+  margin: 0 1.6rem;
+  font-size: 1.2rem;
+}
+
+.pop-content-text p i {
+  margin-top: 6rem;
+}
+
+/* HOSTING CONTENT */
+
+main {
+  background: #f2f2f2;
+  padding: 0 3rem;
+}
+
+main > h2 {
+  margin: 1.5rem 0;
+  padding-bottom: 2rem;
+}
+
+.hosting-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.hosting-content {
+  margin: 1rem;
+  border-style: solid;
+  border-width: 0.6rem;
+  background: white;
+  border-color: white;
+}
+
+.hosting-content img {
+  width: 28rem;
+  height: 13rem;
+}
+
+/* ACTIVITIES */
+
+.activities-section {
+  background: #f2f2f2;
+  padding: 0 3rem;
+}
+
+.activities-section > h2 {
+  margin: 1.5rem 0;
+  padding-bottom: 2rem;
+}
+
+.activities-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.activities-content {
+  width: 28rem;
+  margin: 1rem;
+  box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.26);
+}
+
+.activities-content img {
+  width: 28rem;
+  height: 13rem;
 }
