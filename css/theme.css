@@ -209,6 +209,64 @@ form input {
   align-items: center;
 }
 
+/* POPULAR AND HOSTING */
+
+.popular-and-hosting {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.shadow {
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+}
+
+/* HOSTING */
+
+main {
+  padding: 3rem;
+}
+
+main > h2 {
+  margin: 2rem 0;
+}
+
+main > p {
+  margin-top: 2rem;
+  font-weight: 700;
+}
+
+.hosting-container {
+  width: 31rem;
+  background: white;
+  border-radius: 2.5rem;
+  margin: 1rem 0;
+}
+
+.img-size-2 {
+  width: 31rem;
+  height: 11rem;
+  object-fit: cover;
+  border-style: solid solid none solid;
+  border-width: 0.5rem;
+  border-color: white;
+  border-radius: 2.5rem 2.5rem 0 0;
+}
+
+.host-content-text {
+  padding: 0.5rem 1rem 1rem 2rem;
+}
+
+.host-content-text h2 {
+  padding-bottom: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.host-content-text p {
+  font-size: 1.4rem;
+  padding-bottom: 0.3rem;
+}
+
 /* POPULAR CONTENT */
 
 aside {
@@ -240,6 +298,7 @@ aside > h2 {
   width: 31rem;
   height: 13rem;
   margin: 1rem 0;
+  border-radius: 2.5rem;
 }
 
 .img-size-1 {
@@ -287,48 +346,46 @@ aside > h2 {
   color: #d3d3d3e7;
 }
 
-/* HOSTING */
+/* ACTIVITIES  */
 
-main {
-  background: #f2f2f2;
+.activities-section {
   padding: 3rem;
 }
 
-main > h2 {
+.activities-section > h2 {
   margin: 2rem 0;
 }
 
-.other-content {
-  margin: 2rem 0;
-}
-
-.hosting-container {
-  width: 31rem;
-  background: white;
+.activities-container {
   border-radius: 2.5rem;
+  width: 31rem;
+  margin: 3rem 0;
 }
 
-.img-size-2 {
+.img-size-3 {
   width: 31rem;
-  height: 11rem;
+  height: 12rem;
   object-fit: cover;
-  border-style: solid solid none solid;
-  border-width: 0.5rem;
-  border-color: white;
   border-radius: 2.5rem 2.5rem 0 0;
 }
 
-.host-content-text {
-  padding: 0.5rem 1rem 1rem 2rem;
+.activities-content-text {
+  padding: 1.5rem 1rem 1.5rem 2rem;
 }
 
-.host-content-text h2 {
-  padding-bottom: 0.5rem;
-  font-size: 1.5rem;
+.activities-content-text p {
   font-weight: 800;
 }
 
-.host-content-text p {
-  font-size: 1.4rem;
-  padding-bottom: 0.3rem;
+footer {
+  background: #f2f2f2;
+  padding: 4rem 3rem;
+}
+
+footer ul {
+  padding: 2rem 0;
+}
+
+footer ul li {
+  padding: 0.5rem 0;
 }
