@@ -44,6 +44,10 @@ ul {
   font-weight: 800;
 }
 
+.register:hover {
+  color: #5f9fff;
+}
+
 .nav img {
   max-width: 10rem;
 }
@@ -95,12 +99,12 @@ ul {
   display: flex;
   justify-content: center;
   position: relative;
-  left: 1.6rem;
+  left: 0.9rem;
   margin: 3rem 0;
 }
 
 .icon-left,
-.button-right a {
+.button-right {
   width: 4.8rem;
   height: 4.8rem;
   background: #f2f2f2;
@@ -113,7 +117,7 @@ ul {
   border-radius: 1rem 0 0 1rem;
 }
 
-.button-right a {
+.button-right {
   height: 5rem;
   border-radius: 1.6rem;
   background: #0065fc;
@@ -122,8 +126,12 @@ ul {
   right: 1.6rem;
 }
 
-.button-right a i {
+.button-right i {
   color: white;
+}
+
+.button-right:hover {
+  background: #5f9fff;
 }
 
 ::placeholder {
@@ -267,6 +275,14 @@ main > p {
   padding-bottom: 0.3rem;
 }
 
+.link-changes {
+  font-weight: 800;
+}
+
+.link-changes:hover {
+  color: #0065fc;
+}
+
 /* POPULAR CONTENT */
 
 aside {
@@ -301,8 +317,10 @@ aside > h2 {
   border-radius: 2.5rem;
 }
 
-.popular-container:hover {
-  transform: scale(1.1);
+.popular-container:hover,
+.activities-container:hover,
+.hosting-container:hover {
+  transform: scale(1.05);
 }
 
 .img-size-1 {
@@ -363,7 +381,7 @@ aside > h2 {
 .activities-container {
   border-radius: 2.5rem;
   width: 31rem;
-  margin: 3rem 0;
+  margin: 1.5rem 0;
 }
 
 .img-size-3 {
@@ -393,4 +411,8 @@ footer ul {
 
 footer ul li {
   padding: 0.5rem 0;
+}
+
+footer ul li a:hover {
+  color: #0065fc;
 }
