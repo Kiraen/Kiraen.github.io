@@ -81,11 +81,12 @@ nav ul li a {
 /* SEARCH SECTION */
 
 .search-section {
-  padding: 2.8rem 1.6rem;
+  padding: 0rem 1rem 1rem 1rem;
 }
 
 .search-section h1,
-.search-section h2 {
+.search-section h2,
+.search-paragraphe {
   margin: 1rem 0 1rem 2.6rem;
 }
 
@@ -231,7 +232,7 @@ main {
 }
 
 main > h2 {
-  margin: 2rem 0;
+  margin-bottom: 0rem;
 }
 
 main > p {
@@ -244,7 +245,7 @@ main > p {
   max-width: 35rem;
   background: white;
   border-radius: 2.5rem;
-  margin: 1rem 0;
+  margin: 1rem;
 }
 
 .img-size-2 {
@@ -294,8 +295,10 @@ aside > h2 {
 .flex-row {
   display: flex;
   flex-wrap: nowrap;
-  justify-content: space-between;
   margin-bottom: 2.5rem;
+}
+.between {
+  justify-content: space-between;
 }
 
 .flex-row h2 {
@@ -385,7 +388,7 @@ aside > h2 {
   border-radius: 2.5rem;
   width: 100%;
   max-width: 35rem;
-  margin: 1.5rem 0;
+  margin: 1.5rem;
 }
 
 .img-size-3 {

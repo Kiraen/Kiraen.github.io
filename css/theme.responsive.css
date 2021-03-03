@@ -1,3 +1,5 @@
+
+/* MOBILE S */
 @media screen and (min-width: 320px) and (max-width: 374px) {
   /* POPULAR */
   .pop-content-text {
@@ -18,7 +20,10 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1440px) {
+/* Desktop L */
+@media screen and (min-width: 1320px) and (max-width: 1920px)
+ {
+  /* NAVIGATION */
   .contain-nav {
     display: flex;
   }
@@ -55,4 +60,82 @@
     border-bottom: none;
     border-top: solid #0065fc;
   }
+  /* SEARCH SECTION */
+
+  .search-bar,
+  .filter-text {
+    justify-content: flex-start;
+    margin-left: 1.5rem;
+  }
+
+  .filter-text p {
+    width: 100%;
+  }
+
+  .flex-row-2 {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+
+  /* POPULAR AND HOSTING */
+
+  .popular-and-hosting {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  /* HOSTING */
+
+  main{
+    background: #f2f2f2;
+    margin: 0 2rem;
+  }
+
+  .container-1 {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .hosting-container {
+    width: 100%;
+    max-width: 25rem;
+    
+  }
+  /* POPULAR CONTENT */
+
+  aside{
+    margin-right: 2rem;
+  }
+
+  .popular-container{
+    max-width: 30rem;
+  }
+
+  .pop-content-text{
+    padding: 1rem 2rem ;
+  }
+
+  .container-2 {
+    width: 32rem;
+  }
+
+  /* ACTIVITIES  */
+
+  .container-3 {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .activities-container {
+    background
+    width: 100%;
+    max-width: 25rem;
+  }
+}
+
+/* Tablette and Desktop */
+@media screen and (min-width: 768px) and (max-width: 1319px){
+
 }
