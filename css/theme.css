@@ -295,7 +295,7 @@ aside > h2 {
 .flex-row {
   display: flex;
   flex-wrap: nowrap;
-  margin-bottom: 2.5rem;
+  margin-bottom: 0rem;
 }
 .between {
   justify-content: space-between;
@@ -405,6 +405,8 @@ aside > h2 {
 .activities-content-text p {
   font-weight: 800;
 }
+
+/* FOOTER */
 
 footer {
   background: #f2f2f2;

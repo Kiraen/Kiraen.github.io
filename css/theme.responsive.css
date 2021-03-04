@@ -1,5 +1,27 @@
-
 /* MOBILE S */
+
+@media screen and (min-width: 280px) and (max-width: 319px) {
+  .register {
+    left: 70%;
+  }
+
+  .pop-content-text {
+    padding: 0.8rem;
+  }
+
+  .pop-content-text h2 {
+    font-size: 1.2rem;
+  }
+
+  .pop-content-text p {
+    font-size: 1rem;
+  }
+
+  .popular-container p i {
+    padding-top: 0.5rem;
+  }
+}
+
 @media screen and (min-width: 320px) and (max-width: 374px) {
   /* POPULAR */
   .pop-content-text {
@@ -8,7 +30,6 @@
 
   .pop-content-text h2 {
     font-size: 1.4rem;
-    font-weight: 600;
   }
 
   .pop-content-text p {
@@ -21,8 +42,7 @@
 }
 
 /* Desktop L */
-@media screen and (min-width: 1320px) and (max-width: 1920px)
- {
+@media screen and (min-width: 768px) and (max-width: 1980px) {
   /* NAVIGATION */
   .contain-nav {
     display: flex;
@@ -82,13 +102,13 @@
 
   .popular-and-hosting {
     flex-direction: row;
-    justify-content: space-evenly;
+    margin: 0 3%;
   }
   /* HOSTING */
 
-  main{
+  main {
+    padding: 2rem;
     background: #f2f2f2;
-    margin: 0 2rem;
   }
 
   .container-1 {
@@ -98,22 +118,22 @@
   }
 
   .hosting-container {
-    width: 100%;
-    max-width: 25rem;
-    
+    width: 30%;
   }
+
   /* POPULAR CONTENT */
 
-  aside{
-    margin-right: 2rem;
+  aside {
+    padding: 2rem;
+    margin-left: 3%;
   }
 
-  .popular-container{
-    max-width: 30rem;
+  .popular-container {
+    max-height: 100%;
   }
 
-  .pop-content-text{
-    padding: 1rem 2rem ;
+  .pop-content-text {
+    padding: 1rem;
   }
 
   .container-2 {
@@ -122,20 +142,39 @@
 
   /* ACTIVITIES  */
 
-  .container-3 {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+  .activities-container {
+    width: 100%;
+    border-radius: 0;
+    margin: 0;
   }
 
-  .activities-container {
-    background
-    width: 100%;
-    max-width: 25rem;
+  .container-3 {
+    display: grid;
+    grid-gap: 0rem 0%;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .activities-two-columns {
+  }
+
+  /* FOOTER */
+
+  .footer-container {
+    display: flex;
+  }
+
+  .footer-content {
+    margin-right: 10%;
+    margin-left: 5%;
   }
 }
 
-/* Tablette and Desktop */
-@media screen and (min-width: 768px) and (max-width: 1319px){
+@media screen and (min-width: 1754px) and (max-width: 1980px) {
+  .hosting-container {
+  }
+}
 
+/* Tablette and Desktop S */
+@media screen and (min-width: 768px) and (max-width: 1439px) {
 }
