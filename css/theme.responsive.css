@@ -143,19 +143,32 @@
   /* ACTIVITIES  */
 
   .activities-container {
-    width: 100%;
-    border-radius: 0;
-    margin: 0;
+    margin: 0.5rem;
   }
 
+  .container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
   .container-3 {
-    display: grid;
-    grid-gap: 0rem 0%;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
+    flex-wrap: nowrap;
   }
 
-  .activities-two-columns {
+  .img-large {
+    height: 83%;
+  }
+
+  .desk-small {
+    max-width: 55%;
+  }
+
+  .desk-large {
+    max-width: 16%;
+    height: 35.3rem;
+  }
+
+  .activities-content-text p {
+    font-size: 1.3rem;
   }
 
   /* FOOTER */
