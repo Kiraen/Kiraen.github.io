@@ -129,6 +129,10 @@
     background: #f2f2f2;
   }
 
+  .template > h2 {
+    margin: 0rem 0 1.5rem 3%;
+  }
+
   .container-1 {
     flex-direction: row;
     flex-wrap: wrap;
@@ -144,11 +148,21 @@
     padding: 50rem;
   }
 
+  .popular-template h2 {
+    padding: 0 0 1.5rem 0%;
+  }
+
   .pop-content-text {
     padding: 1rem;
   }
 
+  .link-margin {
+    margin: 0.5rem 3%;
+  }
   /* ACTIVITIES  */
+  .activities-section > h2 {
+    padding: 0 0 1.5rem 5.5%;
+  }
 
   .container-3 {
     flex-direction: row;
