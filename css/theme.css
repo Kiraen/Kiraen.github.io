@@ -7,6 +7,7 @@
 
 html {
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 body {
@@ -25,10 +26,10 @@ ul {
 /* ----------------------------------- */
 /* MAIN OBJECT AND OTHER */
 .template {
-  margin: 3rem 5%;
+  margin: 3rem 5vw;
 }
 .template-2 {
-  padding: 3rem 5%;
+  padding: 3rem 5vw;
 }
 
 .bottom-margin {
@@ -79,6 +80,7 @@ ul {
 }
 .card-template:hover {
   transform: scale(1.05);
+  transition: all .2s ease-in-out;
 }
 /* ----------------------------------- */
 /* NAVIGATION */
@@ -157,6 +159,11 @@ ul {
 .button-right:hover {
   background: #5f9fff;
 }
+.button-right::before {
+  content: "\f002";
+  font-family: FontAwesome;
+  color: white;
+}
 
 .icone-color {
   color: white;
@@ -179,6 +186,7 @@ form input {
   font-weight: 600;
   color: black;
   padding: 0.5rem;
+  padding-left: 1.5rem;
   font-size: 1.4rem;
 }
 
@@ -205,8 +213,7 @@ form input {
   font-weight: 700;
 }
 .filter-button p > a:hover {
-  background: #0065fc;
-  color: white;
+  background: #deebff;
 }
 
 .filter-button i {
@@ -225,7 +232,11 @@ form input {
 
 .filter-text {
   display: flex;
-  margin: 2rem 0rem;
+  align-items: center;
+  height: 6rem;
+}
+.icone-info{
+  padding-bottom: 2rem;
 }
 
 .icone-info i {
@@ -234,7 +245,7 @@ form input {
   height: 2.5rem;
   font-size: 1.3rem;
   border-radius: 2rem;
-  margin-right: 0.5rem;
+  margin-right: 1.5rem;
   border-style: solid;
   border-width: 0.1rem;
   border-color: #d1d1d1d7;
@@ -378,7 +389,7 @@ form input {
 footer {
   background: #f2f2f2;
   width: 100vw;
-  padding: 4rem 2.8rem;
+  padding: 4rem 3vw;
 }
 
 footer ul {

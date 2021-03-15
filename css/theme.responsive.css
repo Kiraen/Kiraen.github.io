@@ -22,14 +22,12 @@
 }
 
 /* Desktop L */
-@media screen and (min-width: 1200px) and (max-width: 2100px) {
-  .template {
-    margin: 0;
-    padding: 2rem 4rem;
-    border-radius: 2.5rem;
-  }
+@media screen and (min-width: 1200px) and (max-width: 2560px) {
+  .template,
   .template-2 {
-    padding: 2rem 4rem;
+    margin: 0;
+    padding: 4rem;
+    border-radius: 2.5rem;
   }
 
   .background-grey {
@@ -92,7 +90,7 @@
   }
 
   .flex-row-2 > h2 {
-    margin-right: 1rem;
+    margin-right: 2rem;
   }
 
   .search-bar {
@@ -107,13 +105,18 @@
     color: white;
   }
 
-  .icone-color {
-    display: none;
-  }
-
-  .button-right::after {
+  .button-right::before {
+    font-family: "Raleway", sans-serif;
     content: "Rechercher";
     color: white;
+  }
+
+  .filter-button {
+    margin-right: 2rem;
+  }
+  
+  .icone-info{
+    padding-bottom: 0.2rem;
   }
 
   /* POPULAR AND HOSTING */
@@ -130,7 +133,7 @@
   }
 
   .template > h2 {
-    margin: 0rem 0 1.5rem 3%;
+    margin: 0 0 0.5rem 3%;
   }
 
   .container-1 {
@@ -149,7 +152,7 @@
   }
 
   .popular-template h2 {
-    padding: 0 0 1.5rem 0%;
+    padding: 0 0 0.5rem 0%;
   }
 
   .pop-content-text {
@@ -176,12 +179,13 @@
 
   .desk-large {
     height: 100%;
-    max-width: 26rem;
+    max-width: 28rem;
   }
 
   .desk-small {
     display: flex;
     flex-direction: column;
+    max-width: 30rem;
   }
 
   .desk-small-content {
@@ -253,7 +257,9 @@
 
   .pop-content-text {
     padding: 0.5rem 1rem 1rem 2rem;
-    box-shadow: 0px 0px 10px 1px rgb(0 0 0 / 10%);
+    box-shadow: 0px 4px 10px 1px rgb(0 0 0 / 5%);
+    border-style: solid solid solid solid;
+    border-radius: 0 0 2rem 2rem;
   }
 
   /* HOSTING */
