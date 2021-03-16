@@ -235,6 +235,10 @@
     padding-bottom: 0rem;
   }
 
+  .icone-info {
+    padding-bottom: 0.2rem;
+  }
+
   /* POPULAR */
   .template-2 {
     height: 30rem;
@@ -266,8 +270,13 @@
     border-color: white;
     border-radius: 2.5rem 2.5rem 0 0;
   }
+
+  .pop-content-text > h2{
+    padding-right: 1rem;
+  }
+
   .popular-container p i {
-    padding-top: 0rem;
+    padding-top: 0.2rem;
   }
 
   .pop-content-text {
@@ -301,9 +310,7 @@
 
   /* ACTIVITIES */
   .activities-section > h2 {
-    display: flex;
-    justify-content: center;
-    margin-right: 45rem;
+    margin-left: -1.5rem;
   }
 
   .container-3 {
@@ -317,6 +324,7 @@
   .desk-small {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     width: 100%;
   }
   .desk-small-content{
