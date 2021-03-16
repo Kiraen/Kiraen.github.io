@@ -184,10 +184,16 @@ form input {
 
 ::placeholder {
   font-weight: 600;
+  opacity: 1;
   color: black;
   padding: 0.5rem;
   padding-left: 1.5rem;
   font-size: 1.4rem;
+}
+
+.filter-title{
+  font-size: 2rem;
+  font-weight: 700;
 }
 
 .filter-container {
@@ -341,6 +347,7 @@ form input {
 }
 
 .link-margin {
+  padding-top: 1.5rem;
   margin: 0.5rem 8%;
 }
 
@@ -380,6 +387,13 @@ form input {
   padding: 1.5rem 1rem 1.5rem 2rem;
 }
 
+.desk-small{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%
+}
+
 .activities-content-text p {
   font-weight: 800;
 }
@@ -389,14 +403,15 @@ form input {
 footer {
   background: #f2f2f2;
   width: 100vw;
-  padding: 4rem 3vw;
+  padding: 2rem 1.5rem;
 }
 
-footer ul {
-  padding: 2rem 0;
+.footer-content{
+  padding: 1.5rem 0;
 }
 
-footer ul li {
+footer ul,
+footer ul li{
   padding: 0.5rem 0;
 }
 
