@@ -7,7 +7,6 @@
 
 html {
   font-size: 62.5%;
-  overflow-x: hidden;
 }
 
 body {
@@ -92,14 +91,15 @@ ul {
 .nav-list {
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 
 .link {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 50vw;
   height: 4.5rem;
+  width: 100%;
 }
 .link:hover {
   background: #deebff;
@@ -150,8 +150,8 @@ ul {
   height: 5rem;
   border-radius: 1.6rem;
   background: #0065fc;
-  position: absolute;
-  left: 31rem;
+  position: relative;
+  right: 15%;
 }
 .button-right:hover {
   background: #5f9fff;
@@ -402,7 +402,6 @@ form input {
 
 footer {
   background: #f2f2f2;
-  width: 100vw;
   padding: 2rem 1.5rem;
 }
 
