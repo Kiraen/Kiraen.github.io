@@ -79,7 +79,7 @@ ul {
 }
 .card-template:hover {
   transform: scale(1.05);
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 /* ----------------------------------- */
 /* NAVIGATION */
@@ -191,7 +191,7 @@ form input {
   font-size: 1.4rem;
 }
 
-.filter-title{
+.filter-title {
   font-size: 2rem;
   font-weight: 700;
 }
@@ -241,7 +241,7 @@ form input {
   align-items: center;
   height: 6rem;
 }
-.icone-info{
+.icone-info {
   padding-bottom: 2rem;
 }
 
@@ -387,11 +387,11 @@ form input {
   padding: 1.5rem 1rem 1.5rem 2rem;
 }
 
-.desk-small{
+.desk-small {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%
+  width: 100%;
 }
 
 .activities-content-text p {
@@ -405,12 +405,12 @@ footer {
   padding: 2rem 1.5rem;
 }
 
-.footer-content{
+.footer-content {
   padding: 1.5rem 0;
 }
 
 footer ul,
-footer ul li{
+footer ul li {
   padding: 0.5rem 0;
 }
 
