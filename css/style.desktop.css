@@ -11,6 +11,10 @@
     border-radius: 2.5rem;
   }
 
+  .card-template {
+    max-width: 30rem;
+  }
+
   /* NAVIGATION */
 
   .container-nav {

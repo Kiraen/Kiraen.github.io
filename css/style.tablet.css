@@ -1,5 +1,9 @@
 /* Tablette and Desktop S */
 @media screen and (min-width: 730px) and (max-width: 1199px) {
+  .card-template {
+    max-width: 30rem;
+  }
+
   /* NAVIGATION */
   .register {
     left: 87%;
